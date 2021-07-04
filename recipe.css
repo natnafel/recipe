@@ -1,0 +1,80 @@
+.container {
+    margin-top: 20px;
+    margin-bottom: 20px
+}
+
+.title {
+    color: #A4A400;
+    background-color: #F0F0F0;
+    flex: 1;
+    font-family: Lucida, Sans Unicode, Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    text-align: center;
+    font-style: bold;
+    text-decoration: underline;
+}
+
+.sub-title {
+    color: #A4A400;
+    background-color: #F0F0F0;
+    flex: 1;
+    font-size: 18px;
+    text-align: left;
+    text-decoration: underline;
+}
+
+body {
+    color: #404040;
+    background-color: white;
+    font-size: 11px;
+    font-family: Georgia, Garamond, sans-serif;
+}
+
+a {
+    color: #A4A400;
+}
+
+ul.no-style {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+ul.circle {
+    list-style-type: circle;
+}
+
+.ht {
+    text-decoration: underline;
+}
+
+.ht:hover .tooltip {
+    display: block;
+}
+
+.tooltip {
+    display: none;
+    margin-left: 28px;
+    /* moves the tooltip to the right */
+    margin-top: 15px;
+    /* moves it down */
+    position: absolute;
+    z-index: 1000;
+}
+
+.comment-container {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.comment {
+    font-style: italic;
+    background-color: #A4A400;
+    margin-bottom: 20px;
+}
+
+.footer {
+    text-align: right;
+    font-family: monospace;
+}
